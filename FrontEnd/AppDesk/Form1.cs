@@ -12,17 +12,17 @@ using System.Runtime.InteropServices;
 namespace AppDesk
 {
 
-    public partial class Form1 : DevComponents.DotNetBar.Metro.MetroAppForm
-    {
+  public partial class Form1 : DevComponents.DotNetBar.Metro.MetroAppForm
+  {
 
-        private struct LASTINPUTINFO
-        {
-            long cbSize;
-            long dwTime;
-        }
-        public Form1()
-        {
-            InitializeComponent();
-        }
+    private struct LASTINPUTINFO
+    {
+      long cbSize;
+      long dwTime;
     }
+    public Form1()
+    {
+      InitializeComponent();
+    }
+  }
 }
