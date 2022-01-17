@@ -1,0 +1,2 @@
+D:\Desarrollo\Sistema\SoftEvolution\SoftwareEvolution\Data.Repository\obj\Debug\Data.Repository.csproj.AssemblyReference.cache
+D:\Desarrollo\Sistema\SoftEvolution\SoftwareEvolution\Data.Repository\obj\Debug\Data.Repository.csproj.CoreCompileInputs.cache

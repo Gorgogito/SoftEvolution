@@ -1,0 +1,17 @@
+D:\Desarrollo\Sistema\SoftEvolution\FrontEnd\AppDesk\bin\Debug\AppDesk.exe.config
+D:\Desarrollo\Sistema\SoftEvolution\FrontEnd\AppDesk\bin\Debug\AppDesk.exe
+D:\Desarrollo\Sistema\SoftEvolution\FrontEnd\AppDesk\bin\Debug\AppDesk.pdb
+D:\Desarrollo\Sistema\SoftEvolution\FrontEnd\AppDesk\bin\Debug\DevComponents.DotNetBar.SuperGrid.dll
+D:\Desarrollo\Sistema\SoftEvolution\FrontEnd\AppDesk\bin\Debug\DevComponents.DotNetBar2.dll
+D:\Desarrollo\Sistema\SoftEvolution\FrontEnd\AppDesk\bin\Debug\DevComponents.Instrumentation.dll
+D:\Desarrollo\Sistema\SoftEvolution\FrontEnd\AppDesk\bin\Debug\DevComponents.DotNetBar.SuperGrid.xml
+D:\Desarrollo\Sistema\SoftEvolution\FrontEnd\AppDesk\bin\Debug\DevComponents.DotNetBar2.xml
+D:\Desarrollo\Sistema\SoftEvolution\FrontEnd\AppDesk\bin\Debug\DevComponents.Instrumentation.xml
+D:\Desarrollo\Sistema\SoftEvolution\FrontEnd\AppDesk\obj\Debug\AppDesk.csproj.AssemblyReference.cache
+D:\Desarrollo\Sistema\SoftEvolution\FrontEnd\AppDesk\obj\Debug\AppDesk.Form1.resources
+D:\Desarrollo\Sistema\SoftEvolution\FrontEnd\AppDesk\obj\Debug\AppDesk.Properties.Resources.resources
+D:\Desarrollo\Sistema\SoftEvolution\FrontEnd\AppDesk\obj\Debug\AppDesk.csproj.GenerateResource.cache
+D:\Desarrollo\Sistema\SoftEvolution\FrontEnd\AppDesk\obj\Debug\AppDesk.csproj.CoreCompileInputs.cache
+D:\Desarrollo\Sistema\SoftEvolution\FrontEnd\AppDesk\obj\Debug\AppDesk.csproj.CopyComplete
+D:\Desarrollo\Sistema\SoftEvolution\FrontEnd\AppDesk\obj\Debug\AppDesk.exe
+D:\Desarrollo\Sistema\SoftEvolution\FrontEnd\AppDesk\obj\Debug\AppDesk.pdb
