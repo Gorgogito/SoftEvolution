@@ -1,0 +1,130 @@
+[33mcommit 791d2a16d694a1656feabbc8ed1a5358974fe26d[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Jorge Torres <ta_jJorge_luis@hotmail.com>
+Date:   Mon Jan 17 18:27:56 2022 -0500
+
+    Cambio en diseño
+
+[1mdiff --git a/FrontEnd/.vs/FrontEnd/v16/.suo b/FrontEnd/.vs/FrontEnd/v16/.suo[m
+[1mindex 3ca3109..9264cf9 100644[m
+Binary files a/FrontEnd/.vs/FrontEnd/v16/.suo and b/FrontEnd/.vs/FrontEnd/v16/.suo differ
+[1mdiff --git a/FrontEnd/AppDesk/Form1.Designer.cs b/FrontEnd/AppDesk/Form1.Designer.cs[m
+[1mindex ad9234f..2527138 100644[m
+[1m--- a/FrontEnd/AppDesk/Form1.Designer.cs[m
+[1m+++ b/FrontEnd/AppDesk/Form1.Designer.cs[m
+[36m@@ -1,838 +1,838 @@[m
+ ﻿[m
+ namespace AppDesk[m
+ {[m
+[31m-    partial class Form1[m
+[31m-    {[m
+[31m-        /// <summary>[m
+[31m-        /// Variable del diseñador necesaria.[m
+[31m-        /// </summary>[m
+[31m-        private System.ComponentModel.IContainer components = null;[m
+[32m+[m[32m  partial class Form1[m
+[32m+[m[32m  {[m
+[32m+[m[32m    /// <summary>[m
+[32m+[m[32m    /// Variable del diseñador necesaria.[m
+[32m+[m[32m    /// </summary>[m
+[32m+[m[32m    private System.ComponentModel.IContainer components = null;[m
+ [m
+[31m-        /// <summary>[m
+[31m-        /// Limpiar los recursos que se estén usando.[m
+[31m-        /// </summary>[m
+[31m-        /// <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>[m
+[31m-        protected override void Dispose(bool disposing)[m
+[31m-        {[m
+[31m-            if (disposing && (components != null))[m
+[31m-            {[m
+[31m-                components.Dispose();[m
+[31m-            }[m
+[31m-            base.Dispose(disposing);[m
+[31m-        }[m
+[32m+[m[32m    /// <summary>[m
+[32m+[m[32m    /// Limpiar los recursos que se estén usando.[m
+[32m+[m[32m    /// </summary>[m
+[32m+[m[32m    /// <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>[m
+[32m+[m[32m    protected override void Dispose(bool disposing)[m
+[32m+[m[32m    {[m
+[32m+[m[32m      if (disposing && (components != null))[m
+[32m+[m[32m      {[m
+[32m+[m[32m        components.Dispose();[m
+[32m+[m[32m      }[m
+[32m+[m[32m      base.Dispose(disposing);[m
+[32m+[m[32m    }[m
+ [m
+[31m-        #region Código generado por el Diseñador de Windows Forms[m
+[32m+[m[32m    #region Código generado por el Diseñador de Windows Forms[m
+ [m
+[31m-        /// <summary>[m
+[31m-        /// Método necesario para admitir el Diseñador. No se puede modificar[m
+[31m-        /// el contenido de este método con el editor de código.[m
+[31m-        /// </summary>[m
+[31m-        private void InitializeComponent()[m
+[31m-        {[m
+[31m-            this.components = new System.ComponentModel.Container();[m
+[31m-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));[m
+[31m-            this.ribbonControl1 = new DevComponents.DotNetBar.RibbonControl();[m
+[31m-            this.ribbonPanel1 = new DevComponents.DotNetBar.RibbonPanel();[m
+[31m-            this.RibUsuario = new DevComponents.DotNetBar.RibbonBar();[m
+[31m-            this.ribbonPanel2 = new DevComponents.DotNetBar.RibbonPanel();[m
+[31m-            this.ribbonTabItem1 = new DevComponents.DotNetBar.RibbonTabItem();[m
+[31m-            this.ribbonTabItem2 = new DevComponents.DotNetBar.RibbonTabItem();[m
+[31m-            this.applicationButton1 = new DevComponents.DotNetBar.ApplicationButton();[m
+[31m-            this.itemContainer1 = new DevComponents.DotNetBar.ItemContainer();[m
+[31m-            this.itemContainer2 = new DevComponents.DotNetBar.ItemContainer();[m
+[31m-            this.itemContainer3 = new DevComponents.DotNetBar.ItemContainer();[m
+[31m-            this.buttonItem2 = new DevComponents.DotNetBar.ButtonItem();[m
+[31m-            this.buttonItem3 = new DevComponents.DotNetBar.ButtonItem();[m
+[31m-            this.buttonItem4 = new DevComponents.DotNetBar.ButtonItem();[m
+[31m-            this.buttonItem5 = new DevComponents.DotNetBar.ButtonItem();[m
+[31m-            this.buttonItem6 = new DevComponents.DotNetBar.ButtonItem();[m
+[31m-            this.buttonItem7 = new DevComponents.DotNetBar.ButtonItem();[m
+[31m-            this.galleryContainer1 = new DevComponents.DotNetBar.GalleryContainer();[m
+[31m-            this.labelItem8 = new DevComponents.DotNetBar.LabelItem();[m
+[31m-            this.buttonItem8 = new DevComponents.DotNetBar.ButtonItem();[m
+[31m-            this.buttonItem9 = new DevComponents.DotNetBar.ButtonItem();[m
+[31m-            this.buttonItem10 = new DevComponents.DotNetBar.ButtonItem();[m
+[31m-            this.buttonItem11 = new DevComponents.DotNetBar.ButtonItem();[m
+[31m-            this.itemContainer4 = new DevComponents.DotNetBar.ItemContainer();[m
+[31m-            this.buttonItem12 = new DevComponents.DotNetBar.ButtonItem();[m
+[31m-            this.buttonItem13 = new DevComponents.DotNetBar.ButtonItem();[m
+[31m-            this.buttonItem1 = new DevComponents.DotNetBar.ButtonItem();[m
+[31m-            this.qatCustomizeItem1 = new DevComponents.DotNetBar.QatCustomizeItem();[m
+[31m-            this.styleManager1 = new DevComponents.DotNetBar.StyleManager(this.components);[m
+[31m-            this.bar1 = new DevComponents.DotNetBar.Bar();[m
+[31m-            this.dotNetBarManager1 = new DevComponents.DotNetBar.DotNetBarManager(this.components);[m
+[31m-            this.dockSite4 = new DevComponents.DotNetBar.DockSite();[m
+[31m-            this.dockSite1 = new DevComponents.DotNetBar.DockSite();[m
+[31m-            this.bar2 = new DevComponents.DotNetBar.Bar();[m
+[31m-            this.panelDockContainer1 = new DevComponents.DotNetBar.PanelDockContainer();[m
+[31m-            this.dockContainerItem1 = new DevComponents.DotNetBar.DockContainerItem();[m
+[31m-            this.dockSite2 = new DevComponents.DotNetBar.DockSite();[m
+[31m-            this.dockSite8 = new DevComponents.DotNetBar.DockSite();[m
+[31m-            this.dockSite5 = new DevComponents.DotNetBar.DockSite();[m
+[31m-            this.dockSite6 = new DevComponents.DotNetBar.DockSite();[m
+[31m-            this.dockSite7 = new DevComponents.DotNetBar.DockSite();[m
+[31m-            this.dockSite3 = new DevComponents.DotNetBar.DockSite();[m
+[31m-            this.styleManagerAmbient1 = new DevComponents.DotNetBar.StyleManagerAmbient(this.components);[m
+[31m-            this.btiUsuario = new DevComponents.DotNetBar.ButtonItem();[m
+[31m-            this.itemContainer5 = new DevComponents.DotNetBar.ItemContainer();[m
+[31m-            this.LbiTitUsuario = new DevComponents.DotNetBar.LabelItem();[m
+[31m-            this.LbiCodUsuario = new DevComponents.DotNetBar.LabelItem();[m
+[31m-            this.LbiDesUsuario = new DevComponents.DotNetBar.LabelItem();[m
+[31m-            this.BtiAjustarUsuario = new DevComponents.DotNetBar.ButtonItem();[m
+[31m-            this.BtiCerraSesionUsuario = new DevComponents.DotNetBar.ButtonItem();[m
+[31m-            this.BtiCerrarSesion = new DevComponents.DotNetBar.ButtonItem();[m
+[31m-            this.BtiLockScreen = new DevComponents.DotNetBar.ButtonItem();[m
+[31m-            this.BtiTimeLockScreen = new DevComponents.DotNetBar.ButtonItem();[m
+[31m-            this.ribbonControl1.SuspendLayout();[m
+[31m-            this.ribbonPanel1.SuspendLayout();[m
+[31m-            ((System.ComponentModel.ISupportInitialize)(this.bar1)).BeginInit();[m
+[31m-            this.dockSite1.SuspendLayout();[m
+[31m-            ((System.ComponentModel.ISupportInitialize)(this.bar2)).BeginInit();[m
+[31m-            this.bar2.SuspendLayout();[m
+[31m-            this.SuspendLayout();[m
+[31m-            // [m
+[31m-            // ribbonControl1[m
+[31m-            // [m
+[31m-            this.ribbonControl1.BackColor = System.Drawing.Color.White;[m
+[31m-            // [m
